@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+ul,
+ol {
+    list-style: none;
+}
+
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    /*清除点击默认的高亮效果*/
+    -webkit-box-sizing: border-box;
+    /*以你的border开始计算你的宽度*/
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*IE/7/6*/
+}
+
+.container {
+    /*版心 提取 */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}

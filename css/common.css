@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?5oyl41');
+    src: url('../fonts/icomoon.eot?5oyl41#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?5oyl41') format('truetype'), url('../fonts/icomoon.woff?5oyl41') format('woff'), url('../fonts/icomoon.svg?5oyl41#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icomoon {
+    font-family: 'icomoon';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.top {
+    height: 30px;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.red {
+    color: #c81623;
+}
+
+.top .fl ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+.top .fr ul li {
+    float: left;
+    margin: 0 5px 0;
+}
+
+.header {
+    position: relative;
+    height: 105px;
+    /* background-color: pink; */
+}
+
+.header .logo {
+    position: relative;
+    width: 175px;
+    height: 55px;
+}
+
+.header .logo img {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+}
+
+
+/* form {
+    border: 1px solid #b1191a;
+} */
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+}
+
+.search input:nth-child(1) {
+    float: left;
+    width: 450px;
+    height: 33px;
+    border: 2px solid #b1191a;
+    padding-left: 10px;
+}
+
+.search input:nth-child(2) {
+    float: left;
+    width: 82px;
+    height: 39px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+}
+
+.search ul {
+    margin-left: 9px;
+}
+
+.search ul li {
+    float: left;
+    padding-right: 28px;
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    line-height: 34px;
+    font-size: 12px;
+    color: #666;
+}
+
+.car img {
+    width: 16px;
+    padding: 5px 5px 6px 15px;
+}
+
+.arrow {
+    padding-left: 14px;
+}
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    width: 209px;
+    height: 45px;
+}
+
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.dropdown .dd {
+    height: 465px;
+    background-color: #c81623;
+}
+
+.dropdown .dd .menu-item {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding: 0 10px;
+    transition: all .2s;
+}
+
+.menu-item:hover {
+    background-color: #fff;
+}
+
+.menu-item a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.menu-item i {
+    float: right;
+    color: #fff;
+}
+
+.menu-item:hover a {
+    color: #c81623;
+    /* color: #fff; */
+}
+
+.navitems {
+    margin-left: 10px;
+}
+
+.navitems li {
+    float: left;
+}
+
+.navitems li a {
+    display: block;
+    height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #333;
+}
+
+.navitems li a:hover {
+    color: #f40;
+}
+
+.footer {
+    height: 386px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.mod_service {
+    height: 79px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_service ul li {
+    float: left;
+    width: 20%;
+    height: 79px;
+}
+
+.mod_service ul li .mod_service_zheng {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -253px -3px;
+    margin-left: 35px;
+}
+
+.mod_service ul li .mod_service_tit {
+    float: left;
+    margin-left: 5px;
+}
+
+.mod_service ul li .mod_service_tit h5 {
+    margin: 5px 0;
+}
+
+.mod_service ul li .mod_service_tit p {
+    font-size: 14px;
+}
+
+.mod_service ul li .mod_service_kuai {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -255px -54px;
+    margin-left: 35px;
+}
+
+.mod_service ul li .mod_service_bao {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -257px -105px;
+    margin-left: 35px;
+}
+
+.mod_help {
+    height: 187px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_help .mod_help_item {
+    float: left;
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+
+.mod_help .mod_help_item dt {
+    height: 25px;
+    font-size: 16px;
+}
+
+.mod_help .mod_help_item dd {
+    height: 22px;
+    font-size: 12px;
+}
+
+.mod_help_app dt {
+    padding-left: 10px;
+}
+
+.mod_help_app p {
+    padding-left: 5px;
+}
+
+.mod_help_app img {
+    margin: 7px 0;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright p {
+    font-size: 12px;
+}
+
+.mod-copyright_link {
+    margin: 15px 0 10px 0;
+}

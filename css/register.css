@@ -1,0 +1,86 @@
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.registerarea {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.registerarea em {
+    float: right;
+    font-style: normal;
+}
+
+.registerarea em a {
+    color: #f40;
+}
+
+.reg_form {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg_form input {
+    width: 300px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.reg_form ul li {
+    margin-top: 20px;
+}
+
+.reg_form .submit {
+    display: block;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-150px);
+    background-color: #e2231a;
+    width: 100px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.reg_form .checkbox {
+    display: inline-block;
+    width: 15px;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.footer {
+    height: 120px;
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: center;
+}
